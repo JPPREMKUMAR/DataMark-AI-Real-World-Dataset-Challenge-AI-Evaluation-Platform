@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 
 from fastapi import FastAPI, UploadFile, File, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel, Field
 
@@ -24,6 +25,20 @@ app = FastAPI(
     title="DataMark AI API",
     description="Dataset Challenge and AI Evaluation Platform",
     version="1.0.0"
+)
+
+# Allow the deployed React frontend and local Vite development server
+ALLOWED_ORIGINS = [
+    "https://datamarkaireal.vercel.app",
+    "http://localhost:5173",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=ALLOWED_ORIGINS,
+    allow_credentials=False,
+    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["*"],
 )
 
 
