@@ -1,15 +1,43 @@
+
 [build-system]
-requires=["setuptools>=68","wheel"]
-build-backend="setuptools.build_meta"
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name="datamark-ai"
-version="1.0.0"
-requires-python=">=3.11"
-dependencies=["pandas>=2.1","numpy>=1.26","scipy>=1.11","scikit-learn>=1.3","plotly>=5.18","sqlalchemy>=2","fastapi>=0.110","uvicorn>=0.27","streamlit>=1.31","pydantic>=2.6","openpyxl>=3.1","pyarrow>=15","python-multipart>=0.0.9"]
+name = "datamark-ai"
+version = "1.0.0"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.1",
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "scikit-learn>=1.3",
+    "plotly>=5.18",
+    "sqlalchemy>=2",
+    "fastapi>=0.110",
+    "uvicorn>=0.27",
+    "streamlit>=1.31",
+    "pydantic>=2.6",
+    "openpyxl>=3.1",
+    "pyarrow>=15",
+    "python-multipart>=0.0.9"
+]
+
 [project.optional-dependencies]
-dev=["pytest>=8","pytest-cov>=4","ruff>=0.3","httpx>=0.27","jupyter>=1"]
+dev = [
+    "pytest>=8",
+    "pytest-cov>=4",
+    "ruff>=0.3",
+    "httpx>=0.27",
+    "jupyter>=1"
+]
+
 [tool.setuptools.packages.find]
-where=["src"]
+where = ["src"]
+
 [tool.pytest.ini_options]
-pythonpath=["src"]
-testpaths=["tests"]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.vercel]
+entrypoint = "src.datamark.api.main:app"
