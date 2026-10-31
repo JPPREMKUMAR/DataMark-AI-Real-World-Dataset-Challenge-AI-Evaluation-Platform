@@ -39,5 +39,6 @@ where = ["src"]
 pythonpath = ["src"]
 testpaths = ["tests"]
 
+
 [tool.vercel]
 entrypoint = "src.datamark.api.main:app"
