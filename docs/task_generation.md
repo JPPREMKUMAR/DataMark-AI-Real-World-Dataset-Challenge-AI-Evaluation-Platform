@@ -1,0 +1,1 @@
+# Task Generation\n\n150 deterministic task metadata records span six domains, ten categories and four difficulty labels. Each has ID, dataset/version, schemas, reference answer, implementation pointer, explanation, rubric, validation rules, edge cases and provenance. Generic task scaffolds require domain-specific gold-answer expansion before high-stakes use.

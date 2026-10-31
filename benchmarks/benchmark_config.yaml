@@ -1,0 +1,7 @@
+seed: 42
+task_count: 150
+domains: [ecommerce, finance, customer, operations, healthcare_synthetic, software]
+numeric_abs_tolerance: 0.01
+numeric_rel_tolerance: 0.0001
+weights: {correctness: 0.5, completeness: 0.2, method: 0.2, limitation: 0.1}
+execute_untrusted_python: false

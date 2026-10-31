@@ -1,0 +1,1 @@
+# Benchmark Results\n\n{'runs': 2, 'mean_score': 1.0, 'pass_rate': 1.0}\n

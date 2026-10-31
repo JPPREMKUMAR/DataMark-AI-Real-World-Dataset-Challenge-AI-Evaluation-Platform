@@ -1,0 +1,3 @@
+task_id,score,passed,absolute_error,expected,actual
+DEMO-001,1.0,True,0.0,100.0,100.0
+DEMO-002,1.0,True,3.0,250.0,247.0

@@ -1,0 +1,1 @@
+# Evaluation Methodology\n\nObjective numeric checks use absolute and relative tolerance; JSON checks are exact. Text-term matching is only a coarse coverage signal. SQL should run read-only in an isolated fixture database. Python is not executed in-process. Reasoning and hallucination assessment need human review or calibrated LLM rubric; an LLM judge is not ground truth.

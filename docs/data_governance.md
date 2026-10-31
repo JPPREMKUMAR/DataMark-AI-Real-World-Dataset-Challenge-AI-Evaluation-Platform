@@ -1,0 +1,1 @@
+# Data Governance\n\nTrack provenance, licenses, access dates, transformations and retention. Do not commit personal or confidential data. Healthcare fixtures are synthetic and not clinical. Demo uploads have no authentication; secure before deployment.

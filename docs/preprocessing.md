@@ -1,0 +1,1 @@
+# Preprocessing\n\nclean_dataframe normalizes column names, drops exact duplicates optionally and converts blank object strings to NA. It does not impute automatically. Preserve raw files; document every transformation and save derived data under data/processed.

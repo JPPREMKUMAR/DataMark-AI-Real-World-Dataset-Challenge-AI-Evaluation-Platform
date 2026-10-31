@@ -1,0 +1,1 @@
+# Limitations\n\nSynthetic-only datasets. Task bank is a benchmark scaffold and not all reference answers are independently computed domain gold answers. Python/SQL execution sandbox is not shipped. No authentication, multi-user permissions or production migrations. Quality score is heuristic.

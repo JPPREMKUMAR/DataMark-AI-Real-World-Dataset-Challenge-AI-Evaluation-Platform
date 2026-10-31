@@ -1,0 +1,1 @@
+# Reproducibility\n\nDefault seed 42. Preserve dataset/task versions, package versions, tolerances and exported JSON. Regenerate with scripts/generate_data.py and scripts/generate_tasks.py. Use tolerance for floating-point comparisons.

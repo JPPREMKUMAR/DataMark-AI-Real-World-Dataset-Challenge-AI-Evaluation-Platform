@@ -1,0 +1,1 @@
+# Api Reference\n\nRun uvicorn datamark.api.main:app --reload --app-dir src. /docs provides OpenAPI. Routes: health, datasets, upload, dataset detail/profile/clean, tasks list/detail/generate/validate, evaluate, benchmarks, reports, metrics. Upload limit 25 MB. Add auth/rate limiting/scanning before public deployment.

@@ -1,0 +1,25 @@
+{
+  "summary": {
+    "runs": 2,
+    "mean_score": 1.0,
+    "pass_rate": 1.0
+  },
+  "results": [
+    {
+      "task_id": "DEMO-001",
+      "score": 1.0,
+      "passed": true,
+      "absolute_error": 0.0,
+      "expected": 100.0,
+      "actual": 100.0
+    },
+    {
+      "task_id": "DEMO-002",
+      "score": 1.0,
+      "passed": true,
+      "absolute_error": 3.0,
+      "expected": 250.0,
+      "actual": 247.0
+    }
+  ]
+}

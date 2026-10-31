@@ -1,0 +1,1 @@
+# Dataset Catalog\n\nAll included records are synthetic, generated with NumPy seed 42; no external dataset is redistributed. E-commerce orders 1,200; finance transactions 1,200; customer profiles 250; operations shipments 1,200; synthetic healthcare appointments 600; software issues 800. Record external source URL/license/access date before adding public data.

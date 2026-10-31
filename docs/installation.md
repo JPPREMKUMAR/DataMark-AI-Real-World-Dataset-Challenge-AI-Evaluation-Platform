@@ -1,0 +1,1 @@
+# Installation\n\nRequires Python 3.11+. Install requirements.txt in a virtual environment. Windows activation: .venv\\Scripts\\activate. macOS/Linux: source .venv/bin/activate. Run scripts in README. Docker: docker compose up --build. API docs at /docs.

@@ -1,0 +1,385 @@
+{
+  "customer_profiles": {
+    "rows": 250,
+    "columns": 5,
+    "column_types": {
+      "customer_id": "int64",
+      "age": "int64",
+      "region": "str",
+      "signup_date": "str",
+      "segment": "str"
+    },
+    "missing_values": {
+      "customer_id": 0,
+      "age": 0,
+      "region": 0,
+      "signup_date": 0,
+      "segment": 0
+    },
+    "missing_percent": {
+      "customer_id": 0.0,
+      "age": 0.0,
+      "region": 0.0,
+      "signup_date": 0.0,
+      "segment": 0.0
+    },
+    "duplicate_rows": 0,
+    "data_quality_score": 100.0,
+    "numeric_summary": {
+      "customer_id": {
+        "count": 250.0,
+        "mean": 125.5,
+        "std": 72.31297716638879,
+        "min": 1.0,
+        "25%": 63.25,
+        "50%": 125.5,
+        "75%": 187.75,
+        "max": 250.0
+      },
+      "age": {
+        "count": 250.0,
+        "mean": 44.068,
+        "std": 16.554139486441034,
+        "min": 18.0,
+        "25%": 29.0,
+        "50%": 43.0,
+        "75%": 58.5,
+        "max": 74.0
+      }
+    }
+  },
+  "ecommerce_orders": {
+    "rows": 1200,
+    "columns": 7,
+    "column_types": {
+      "order_id": "int64",
+      "customer_id": "int64",
+      "product_id": "int64",
+      "order_date": "str",
+      "quantity": "int64",
+      "unit_price": "float64",
+      "discount_rate": "float64"
+    },
+    "missing_values": {
+      "order_id": 0,
+      "customer_id": 0,
+      "product_id": 0,
+      "order_date": 0,
+      "quantity": 0,
+      "unit_price": 0,
+      "discount_rate": 0
+    },
+    "missing_percent": {
+      "order_id": 0.0,
+      "customer_id": 0.0,
+      "product_id": 0.0,
+      "order_date": 0.0,
+      "quantity": 0.0,
+      "unit_price": 0.0,
+      "discount_rate": 0.0
+    },
+    "duplicate_rows": 0,
+    "data_quality_score": 100.0,
+    "numeric_summary": {
+      "order_id": {
+        "count": 1200.0,
+        "mean": 600.5,
+        "std": 346.5544690232691,
+        "min": 1.0,
+        "25%": 300.75,
+        "50%": 600.5,
+        "75%": 900.25,
+        "max": 1200.0
+      },
+      "customer_id": {
+        "count": 1200.0,
+        "mean": 126.56416666666667,
+        "std": 71.91206670014749,
+        "min": 2.0,
+        "25%": 64.0,
+        "50%": 127.0,
+        "75%": 190.0,
+        "max": 250.0
+      },
+      "product_id": {
+        "count": 1200.0,
+        "mean": 40.2525,
+        "std": 23.2414977234764,
+        "min": 1.0,
+        "25%": 20.0,
+        "50%": 39.0,
+        "75%": 60.0,
+        "max": 80.0
+      },
+      "quantity": {
+        "count": 1200.0,
+        "mean": 2.993333333333333,
+        "std": 1.4218439632282778,
+        "min": 1.0,
+        "25%": 2.0,
+        "50%": 3.0,
+        "75%": 4.0,
+        "max": 5.0
+      },
+      "unit_price": {
+        "count": 1200.0,
+        "mean": 127.82549999999998,
+        "std": 70.01842182415726,
+        "min": 8.14,
+        "25%": 67.2225,
+        "50%": 128.225,
+        "75%": 188.515,
+        "max": 249.94
+      },
+      "discount_rate": {
+        "count": 1200.0,
+        "mean": 0.095875,
+        "std": 0.07113450503451486,
+        "min": 0.0,
+        "25%": 0.05,
+        "50%": 0.1,
+        "75%": 0.15,
+        "max": 0.2
+      }
+    }
+  },
+  "finance_transactions": {
+    "rows": 1200,
+    "columns": 5,
+    "column_types": {
+      "transaction_id": "int64",
+      "date": "str",
+      "revenue": "float64",
+      "expense": "float64",
+      "account": "str"
+    },
+    "missing_values": {
+      "transaction_id": 0,
+      "date": 0,
+      "revenue": 0,
+      "expense": 0,
+      "account": 0
+    },
+    "missing_percent": {
+      "transaction_id": 0.0,
+      "date": 0.0,
+      "revenue": 0.0,
+      "expense": 0.0,
+      "account": 0.0
+    },
+    "duplicate_rows": 0,
+    "data_quality_score": 100.0,
+    "numeric_summary": {
+      "transaction_id": {
+        "count": 1200.0,
+        "mean": 599.5,
+        "std": 346.5544690232691,
+        "min": 0.0,
+        "25%": 299.75,
+        "50%": 599.5,
+        "75%": 899.25,
+        "max": 1199.0
+      },
+      "revenue": {
+        "count": 1200.0,
+        "mean": 348.7303416666666,
+        "std": 275.69042543136806,
+        "min": 8.54,
+        "25%": 130.62,
+        "50%": 269.115,
+        "75%": 510.145,
+        "max": 1234.65
+      },
+      "expense": {
+        "count": 1200.0,
+        "mean": 89.92405,
+        "std": 50.070432418740566,
+        "min": 5.16,
+        "25%": 46.614999999999995,
+        "50%": 88.315,
+        "75%": 132.41,
+        "max": 179.83
+      }
+    }
+  },
+  "healthcare_appointments_synthetic": {
+    "rows": 600,
+    "columns": 5,
+    "column_types": {
+      "synthetic_record_id": "int64",
+      "appointment_date": "str",
+      "department": "str",
+      "wait_minutes": "float64",
+      "appointment_status": "str"
+    },
+    "missing_values": {
+      "synthetic_record_id": 0,
+      "appointment_date": 0,
+      "department": 0,
+      "wait_minutes": 0,
+      "appointment_status": 0
+    },
+    "missing_percent": {
+      "synthetic_record_id": 0.0,
+      "appointment_date": 0.0,
+      "department": 0.0,
+      "wait_minutes": 0.0,
+      "appointment_status": 0.0
+    },
+    "duplicate_rows": 0,
+    "data_quality_score": 100.0,
+    "numeric_summary": {
+      "synthetic_record_id": {
+        "count": 600.0,
+        "mean": 299.5,
+        "std": 173.34935823359717,
+        "min": 0.0,
+        "25%": 149.75,
+        "50%": 299.5,
+        "75%": 449.25,
+        "max": 599.0
+      },
+      "wait_minutes": {
+        "count": 600.0,
+        "mean": 31.789166666666667,
+        "std": 15.319640496667477,
+        "min": 0.0,
+        "25%": 21.875,
+        "50%": 31.8,
+        "75%": 41.725,
+        "max": 78.0
+      }
+    }
+  },
+  "operations_shipments": {
+    "rows": 1200,
+    "columns": 5,
+    "column_types": {
+      "shipment_id": "int64",
+      "warehouse": "str",
+      "delivery_days": "float64",
+      "inventory_units": "int64",
+      "late": "int64"
+    },
+    "missing_values": {
+      "shipment_id": 0,
+      "warehouse": 0,
+      "delivery_days": 0,
+      "inventory_units": 0,
+      "late": 0
+    },
+    "missing_percent": {
+      "shipment_id": 0.0,
+      "warehouse": 0.0,
+      "delivery_days": 0.0,
+      "inventory_units": 0.0,
+      "late": 0.0
+    },
+    "duplicate_rows": 0,
+    "data_quality_score": 100.0,
+    "numeric_summary": {
+      "shipment_id": {
+        "count": 1200.0,
+        "mean": 599.5,
+        "std": 346.5544690232691,
+        "min": 0.0,
+        "25%": 299.75,
+        "50%": 599.5,
+        "75%": 899.25,
+        "max": 1199.0
+      },
+      "delivery_days": {
+        "count": 1200.0,
+        "mean": 3.84325,
+        "std": 1.366495711521996,
+        "min": 1.0,
+        "25%": 2.9,
+        "50%": 3.7,
+        "75%": 4.8,
+        "max": 8.4
+      },
+      "inventory_units": {
+        "count": 1200.0,
+        "mean": 253.92,
+        "std": 144.1657728972538,
+        "min": 0.0,
+        "25%": 129.0,
+        "50%": 255.0,
+        "75%": 377.0,
+        "max": 499.0
+      },
+      "late": {
+        "count": 1200.0,
+        "mean": 0.14,
+        "std": 0.34713169981172626,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 1.0
+      }
+    }
+  },
+  "software_issues": {
+    "rows": 800,
+    "columns": 6,
+    "column_types": {
+      "issue_id": "int64",
+      "created_at": "str",
+      "severity": "str",
+      "resolution_hours": "float64",
+      "component": "str",
+      "reopened": "int64"
+    },
+    "missing_values": {
+      "issue_id": 0,
+      "created_at": 0,
+      "severity": 0,
+      "resolution_hours": 0,
+      "component": 0,
+      "reopened": 0
+    },
+    "missing_percent": {
+      "issue_id": 0.0,
+      "created_at": 0.0,
+      "severity": 0.0,
+      "resolution_hours": 0.0,
+      "component": 0.0,
+      "reopened": 0.0
+    },
+    "duplicate_rows": 0,
+    "data_quality_score": 100.0,
+    "numeric_summary": {
+      "issue_id": {
+        "count": 800.0,
+        "mean": 399.5,
+        "std": 231.08440016582685,
+        "min": 0.0,
+        "25%": 199.75,
+        "50%": 399.5,
+        "75%": 599.25,
+        "max": 799.0
+      },
+      "resolution_hours": {
+        "count": 800.0,
+        "mean": 11.33925,
+        "std": 10.668119346937427,
+        "min": 1.0,
+        "25%": 5.3,
+        "50%": 8.6,
+        "75%": 13.5,
+        "max": 165.0
+      },
+      "reopened": {
+        "count": 800.0,
+        "mean": 0.09875,
+        "std": 0.29851268780568807,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 1.0
+      }
+    }
+  }
+}

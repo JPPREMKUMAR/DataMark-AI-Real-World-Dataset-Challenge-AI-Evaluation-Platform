@@ -1,0 +1,1 @@
+# Metrics\n\nData quality heuristic = 100 × (0.60 completeness + 0.25 row uniqueness + 0.15 informative-column coverage). Benchmark mean score is arithmetic mean; pass rate is passed runs/total. Heuristic scores are domain-dependent, not universal.

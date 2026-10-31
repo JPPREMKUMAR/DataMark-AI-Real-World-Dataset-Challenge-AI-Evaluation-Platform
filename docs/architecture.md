@@ -1,0 +1,1 @@
+# Architecture\n\nLayered architecture: ingestion -> cleaning/profiling -> analytics/reference solvers -> task catalog -> evaluation -> benchmark store/reports. FastAPI exposes the service; Streamlit is the local workbench. Python code submissions fail closed until a separate isolated sandbox exists.

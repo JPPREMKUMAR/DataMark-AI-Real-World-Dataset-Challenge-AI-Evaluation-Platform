@@ -1,0 +1,1 @@
+# User Guide\n\nGenerate demo data, inspect CSVs in dashboard, upload a tabular file, profile it, browse task catalog, evaluate numeric answer and run scripts/run_benchmark.py for sample report. Review provenance before interpretation.

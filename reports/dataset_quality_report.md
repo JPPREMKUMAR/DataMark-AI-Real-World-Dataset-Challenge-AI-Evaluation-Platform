@@ -1,0 +1,1 @@
+# Dataset quality report\n\nGenerated from the six seeded synthetic datasets. Detailed per-column profiles: dataset_profiles.json.\n
